@@ -1,0 +1,379 @@
+[p LITE_MODE AUTOSTATIC PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 12F1822 ]
+[d frameptr 6 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\abdiv.c
+[v ___abdiv __abdiv `(c  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\abmod.c
+[v ___abmod __abmod `(c  1 e 1 0 ]
+"33 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\abtoft.c
+[v ___abtoft __abtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\aldiv.c
+[v ___aldiv __aldiv `(l  1 e 4 0 ]
+"5 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\almod.c
+[v ___almod __almod `(l  1 e 4 0 ]
+"42 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\altoft.c
+[v ___altoft __altoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\atdiv.c
+[v ___atdiv __atdiv `(m  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\atmod.c
+[v ___atmod __atmod `(m  1 e 3 0 ]
+"37 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\attoft.c
+[v ___attoft __attoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awdiv.c
+[v ___awdiv __awdiv `(i  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awmod.c
+[v ___awmod __awmod `(i  1 e 2 0 ]
+"32 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\awtoft.c
+[v ___awtoft __awtoft `(f  1 e 3 0 ]
+"2 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\bmul.c
+[v ___bmul __bmul `(uc  1 e 1 0 ]
+"62 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\float.c
+[v ___ftpack __ftpack `(f  1 e 3 0 ]
+"86 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftge.c
+[v ___ftge __ftge `(b  1 e 0 0 ]
+"51 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 3 0 ]
+"15 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftneg.c
+[v ___ftneg __ftneg `(f  1 e 3 0 ]
+"18 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 3 0 ]
+"44 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\fttol.c
+[v ___fttol __fttol `(l  1 e 4 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbdiv.c
+[v ___lbdiv __lbdiv `(uc  1 e 1 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbmod.c
+[v ___lbmod __lbmod `(uc  1 e 1 0 ]
+"27 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lbtoft.c
+[v ___lbtoft __lbtoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lldiv.c
+[v ___lldiv __lldiv `(ul  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\llmod.c
+[v ___llmod __llmod `(ul  1 e 4 0 ]
+"35 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lltoft.c
+[v ___lltoft __lltoft `(f  1 e 3 0 ]
+"2 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lmul.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ltdiv.c
+[v ___ltdiv __ltdiv `(um  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\ltmod.c
+[v ___ltmod __ltmod `(um  1 e 3 0 ]
+"30 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lttoft.c
+[v ___lttoft __lttoft `(f  1 e 3 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lwdiv.c
+[v ___lwdiv __lwdiv `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lwmod.c
+[v ___lwmod __lwmod `(ui  1 e 2 0 ]
+"28 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\lwtoft.c
+[v ___lwtoft __lwtoft `(f  1 e 3 0 ]
+"2 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\tmul.c
+[v ___tmul __tmul `(um  1 e 3 0 ]
+"4 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\common\wmul.c
+[v ___wmul __wmul `(ui  1 e 2 0 ]
+"6 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\pic\eeprom.c
+[v _eecpymem eecpymem `(v  1 e 0 0 ]
+"24
+[v _memcpyee memcpyee `(v  1 e 0 0 ]
+"48
+[v ___eetoc __eetoc `(uc  1 e 1 0 ]
+"56
+[v ___eetoi __eetoi `(ui  1 e 2 0 ]
+"64
+[v ___eetom __eetom `(um  1 e 3 0 ]
+"72
+[v ___eetol __eetol `(ul  1 e 4 0 ]
+"80
+[v ___ctoee __ctoee `(uc  1 e 1 0 ]
+"87
+[v ___itoee __itoee `(ui  1 e 2 0 ]
+"94
+[v ___mtoee __mtoee `(um  1 e 3 0 ]
+"101
+[v ___ltoee __ltoee `(ul  1 e 4 0 ]
+"108
+[v ___eetoft __eetoft `(f  1 e 3 0 ]
+"116
+[v ___eetofl __eetofl `(d  1 e 3 0 ]
+"124
+[v ___fttoee __fttoee `(f  1 e 3 0 ]
+"131
+[v ___fltoee __fltoee `(d  1 e 3 0 ]
+"49 C:\Program Files (x86)\Microchip\xc8\v1.30\sources\pic\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 3 0 ]
+"57 E:\Electronics\Auto Pick and Place Machine\Software\VibrationMotorIC.X\main.c
+[v _init init `(v  1 e 0 0 ]
+"120
+[v _SetPWMDutyCyle SetPWMDutyCyle `(v  1 e 0 0 ]
+"129
+[v _startPWM startPWM `(v  1 e 0 0 ]
+"133
+[v _stopPWM stopPWM `(v  1 e 0 0 ]
+"137
+[v _WriteI2C WriteI2C `(v  1 e 0 0 ]
+"152
+[v _isr isr `II(v  1 s 0 isr ]
+"198
+[v _main main `(i  1 e 2 0 ]
+[s S265 . 1 `uc 1 IOCIF 1 0 :1:0 
+`uc 1 INTF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 IOCIE 1 0 :1:3 
+`uc 1 INTE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+"355 C:\Program Files (x86)\Microchip\xc8\v1.30\include\pic12f1822.h
+[s S274 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 T0IE 1 0 :1:5 
+]
+[u S279 . 1 `S265 1 . 1 0 `S274 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES279  1 e 1 @11 ]
+[s S216 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 CCP1IF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 TMR1GIF 1 0 :1:7 
+]
+"715
+[u S225 . 1 `S216 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES225  1 e 1 @17 ]
+"1027
+[v _PR2 PR2 `VEuc  1 e 1 @27 ]
+[s S237 . 1 `uc 1 T2CKPS0 1 0 :1:0 
+`uc 1 T2CKPS1 1 0 :1:1 
+`uc 1 TMR2ON 1 0 :1:2 
+`uc 1 T2OUTPS0 1 0 :1:3 
+`uc 1 T2OUTPS1 1 0 :1:4 
+`uc 1 T2OUTPS2 1 0 :1:5 
+`uc 1 T2OUTPS3 1 0 :1:6 
+]
+"1067
+[s S245 . 1 `uc 1 T2CKPS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 T2OUTPS 1 0 :4:3 
+]
+[u S249 . 1 `S237 1 . 1 0 `S245 1 . 1 0 ]
+[v _T2CONbits T2CONbits `VES249  1 e 1 @28 ]
+[s S137 . 1 `uc 1 TRISA0 1 0 :1:0 
+`uc 1 TRISA1 1 0 :1:1 
+`uc 1 TRISA2 1 0 :1:2 
+`uc 1 TRISA3 1 0 :1:3 
+`uc 1 TRISA4 1 0 :1:4 
+`uc 1 TRISA5 1 0 :1:5 
+]
+"1223
+[u S144 . 1 `S137 1 . 1 0 ]
+[v _TRISAbits TRISAbits `VES144  1 e 1 @140 ]
+"1274
+[v _PIE1bits PIE1bits `VES225  1 e 1 @145 ]
+[s S19 . 1 `uc 1 SCS0 1 0 :1:0 
+`uc 1 SCS1 1 0 :1:1 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF0 1 0 :1:3 
+`uc 1 IRCF1 1 0 :1:4 
+`uc 1 IRCF2 1 0 :1:5 
+`uc 1 IRCF3 1 0 :1:6 
+`uc 1 SPLLEN 1 0 :1:7 
+]
+"1626
+[s S28 . 1 `uc 1 SCS 1 0 :2:0 
+`uc 1 . 1 0 :1:2 
+`uc 1 IRCF 1 0 :4:3 
+]
+[u S32 . 1 `S19 1 . 1 0 `S28 1 . 1 0 ]
+[v _OSCCONbits OSCCONbits `VES32  1 e 1 @153 ]
+[s S69 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+"1809
+[s S77 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADGO 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S81 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S84 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[u S87 . 1 `S69 1 . 1 0 `S77 1 . 1 0 `S81 1 . 1 0 `S84 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES87  1 e 1 @157 ]
+[s S111 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 DACPSS0 1 0 :1:2 
+`uc 1 DACPSS1 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 DACOE 1 0 :1:5 
+`uc 1 DACLPS 1 0 :1:6 
+`uc 1 DACEN 1 0 :1:7 
+]
+"2226
+[s S119 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 DACPSS 1 0 :2:2 
+]
+[u S122 . 1 `S111 1 . 1 0 `S119 1 . 1 0 ]
+[v _DACCON0bits DACCON0bits `VES122  1 e 1 @280 ]
+[s S154 . 1 `uc 1 CCP1SEL 1 0 :1:0 
+`uc 1 P1BSEL 1 0 :1:1 
+`uc 1 TXCKSEL 1 0 :1:2 
+`uc 1 T1GSEL 1 0 :1:3 
+`uc 1 . 1 0 :1:4 
+`uc 1 SSSEL 1 0 :1:5 
+`uc 1 SDOSEL 1 0 :1:6 
+`uc 1 RXDTSEL 1 0 :1:7 
+]
+"2459
+[s S163 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SS1SEL 1 0 :1:5 
+`uc 1 SDO1SEL 1 0 :1:6 
+]
+[u S167 . 1 `S154 1 . 1 0 `S163 1 . 1 0 ]
+[v _APFCONbits APFCONbits `VES167  1 e 1 @285 ]
+[s S49 . 1 `uc 1 ANSA0 1 0 :1:0 
+`uc 1 ANSA1 1 0 :1:1 
+`uc 1 ANSA2 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 ANSA4 1 0 :1:4 
+]
+"2590
+[s S55 . 1 `uc 1 ANSELA 1 0 :5:0 
+]
+[u S57 . 1 `S49 1 . 1 0 `S55 1 . 1 0 ]
+[v _ANSELAbits ANSELAbits `VES57  1 e 1 @396 ]
+"2619
+[v _EEADR EEADR `VEus  1 e 2 @401 ]
+"2674
+[v _EEDATA EEDATA `VEuc  1 e 1 @403 ]
+"2725
+[v _EECON1 EECON1 `VEuc  1 e 1 @405 ]
+"2786
+[v _EECON2 EECON2 `VEuc  1 e 1 @406 ]
+"3169
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @529 ]
+"3206
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @530 ]
+"3280
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @532 ]
+"3401
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @533 ]
+[s S324 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"3430
+[s S333 . 1 `uc 1 SSPM 1 0 :4:0 
+]
+[u S335 . 1 `S324 1 . 1 0 `S333 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES335  1 e 1 @533 ]
+"3604
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @534 ]
+"3725
+[v _SSP1CON3 SSP1CON3 `VEuc  1 e 1 @535 ]
+"3852
+[v _CCPR1L CCPR1L `VEuc  1 e 1 @657 ]
+[s S184 . 1 `uc 1 CCP1M0 1 0 :1:0 
+`uc 1 CCP1M1 1 0 :1:1 
+`uc 1 CCP1M2 1 0 :1:2 
+`uc 1 CCP1M3 1 0 :1:3 
+`uc 1 DC1B0 1 0 :1:4 
+`uc 1 DC1B1 1 0 :1:5 
+`uc 1 P1M0 1 0 :1:6 
+`uc 1 P1M1 1 0 :1:7 
+]
+"3912
+[s S193 . 1 `uc 1 CCP1M 1 0 :4:0 
+`uc 1 DC1B 1 0 :2:4 
+`uc 1 P1M 1 0 :2:6 
+]
+[u S197 . 1 `S184 1 . 1 0 `S193 1 . 1 0 ]
+[v _CCP1CONbits CCP1CONbits `VES197  1 e 1 @659 ]
+"5059
+[v _CARRY CARRY `VEb  1 e 0 @24 ]
+"5205
+[v _GIE GIE `VEb  1 e 0 @95 ]
+"5421
+[v _RD RD `VEb  1 e 0 @3240 ]
+"5697
+[v _WR WR `VEb  1 e 0 @3241 ]
+"5699
+[v _WREN WREN `VEb  1 e 0 @3242 ]
+"50 E:\Electronics\Auto Pick and Place Machine\Software\VibrationMotorIC.X\main.c
+[v _sendBuffer sendBuffer `[8]uc  1 e 8 0 ]
+"51
+[v _receiveBuffer receiveBuffer `[8]uc  1 e 8 0 ]
+"52
+[v _bufferIndex bufferIndex `uc  1 e 1 0 ]
+"198
+[v _main main `(i  1 e 2 0 ]
+{
+[v main@argc argc `i  1 p 2 5 ]
+[v main@argv argv `*.1*.1uc  1 p 2 7 ]
+"221
+} 0
+"133
+[v _stopPWM stopPWM `(v  1 e 0 0 ]
+{
+"135
+} 0
+"129
+[v _startPWM startPWM `(v  1 e 0 0 ]
+{
+"131
+} 0
+"57
+[v _init init `(v  1 e 0 0 ]
+{
+"118
+} 0
+"120
+[v _SetPWMDutyCyle SetPWMDutyCyle `(v  1 e 0 0 ]
+{
+[v SetPWMDutyCyle@duty_cycle_value duty_cycle_value `uc  1 a 1 wreg ]
+"122
+[v SetPWMDutyCyle@duty_cycle duty_cycle `ui  1 a 2 3 ]
+"120
+[v SetPWMDutyCyle@duty_cycle_value duty_cycle_value `uc  1 a 1 wreg ]
+"123
+[v SetPWMDutyCyle@duty_cycle_value duty_cycle_value `uc  1 a 1 2 ]
+"127
+} 0
+"152
+[v _isr isr `II(v  1 s 0 isr ]
+{
+"156
+[v isr@tempSSPSTAT tempSSPSTAT `uc  1 a 1 7 ]
+"155
+[v isr@i2c_mask i2c_mask `uc  1 a 1 6 ]
+"157
+[v isr@temp temp `uc  1 a 1 5 ]
+"196
+} 0
+"137
+[v _WriteI2C WriteI2C `(v  1 e 0 0 ]
+{
+[v WriteI2C@transmitByte transmitByte `uc  1 a 1 wreg ]
+"138
+[v WriteI2C@writeCollision writeCollision `uc  1 a 1 2 ]
+"137
+[v WriteI2C@transmitByte transmitByte `uc  1 a 1 wreg ]
+[v WriteI2C@transmitByte transmitByte `uc  1 a 1 1 ]
+"150
+} 0
